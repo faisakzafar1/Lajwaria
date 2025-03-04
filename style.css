@@ -414,7 +414,8 @@ div.scrollmenu {
 
  footer {
   width: 100%;
-  height: 9400px;
+  height: auto
+  ;
   background-color: rgba(246, 245, 248, 0.966);
   margin-top: 105px;
  }
@@ -544,7 +545,7 @@ div.scrollmenu {
 #more-about-lajwaria {
   background-color: white;
   width: 90%;
-  height: 8630px;
+  height: auto;
   margin: auto;
   position: relative;
   top: 40px;
@@ -583,3 +584,692 @@ div.scrollmenu {
   line-height: 30px;
   font-size: 16px;
 }
+
+/* Mobile ke liye styles */
+@media (max-width: 768px) {
+  .nav-mobile {
+    display: block;
+  }
+  .nav-desktop {
+    display: none;
+  }
+}
+
+/* Laptop/Desktop ke liye styles */
+@media (min-width: 769px) {
+  #for-mobile-only {
+    display: none;
+  }
+}
+
+#background-2 {
+  width: 100%;
+  height: 5000px;
+  background-color: white;
+}
+
+#top-bar {
+  width: 100%;
+  height: 72px;
+  border-top: 1px solid #cececd;
+  border-bottom: 1px solid #cececd;
+  display: flex;
+}
+
+.flipkart {
+  width: 156px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(54, 3, 54);
+  margin-right: 36px;
+}
+
+#flipkart-search {
+  width: 400px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flipkart-searching {
+  height: 45px;
+  width: 400px;
+  border: 1px solid #a5a5a2;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#zafar {
+  width: 348px;
+  height: 21px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #555551;
+}
+
+.shazia {
+  font-size: 22px;
+  font-weight: 100;
+  color: #a5a5a2;
+  margin-right: 6px;
+}
+
+#download-app {
+  width: 186px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#download-apps {
+  width: 138px;
+  height: 40px;
+  border-right: 2px solid #cececd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.anas {
+  color: rgb(53, 53, 67);
+  font-weight: 300;
+}
+
+.asra {
+  position: relative;
+  right: 15px;
+  top: 10px;
+}
+
+#download-appss {
+  width: 130px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#download-appsss {
+  width: 100px;
+  height: 40px;
+  border-right: 2px solid #cececd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#download-appssss {
+  width: 130px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#download-appsssss {
+  width: 100px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div .scrollmenu-10 {
+  overflow: auto;
+  white-space: nowrap;
+  height: 65px;
+  width: 100%;
+  scrollbar-width: none;
+  border-bottom: 1px solid #cececd;
+
+}
+
+div.scrollmenu-10 a {
+  display: inline-block;
+  text-align: center;
+  padding: 22px 14px 14px 14px;
+  text-decoration: none;
+  color: #535367;
+  font-weight: 500;
+  font-size: 16px;
+  
+}
+
+div.scrollmenu-10 a:hover {
+  color: rgb(159, 32, 137);
+  font-weight: 500;
+  border-bottom: 2px solid rgb(159, 32, 137);
+}
+
+#nav-niche {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+#nav-niche-2 {
+  width: 65%;
+  background-color: rgb(248, 248, 255);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#nav-niche img {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#paglu {
+  font-size: 48px;
+  font-weight: 600;
+  Color:rgb(53, 53, 67);
+  margin-left: 60px;
+}
+
+#nav-niche-3 {
+  height: 60px;
+  width: 82%;
+  background-color: white;
+  border-radius: 6px;
+  margin: auto;
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.gadi  {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+
+ 
+  
+}
+
+#master {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+background-color: rgb(159, 32, 137);
+width: 50%;
+margin: auto;
+border-radius: 5px;
+}
+
+#master span {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  color: white;
+}
+
+.play {
+  font-size: 35px;
+  position: relative;
+  top: 10px;
+  color: aqua;
+}
+
+.choose-from {
+width: 80%;
+height: 100px;
+margin: auto;
+text-align: center;
+}
+
+.choose-from p {
+  font-size: 36px;
+  font-weight: 700;
+  color: 
+  rgb(53, 53, 67);
+}
+
+#aman {
+  margin: 48px 0px 60px;
+  background-image: url(https://images.meesho.com/images/marketing/1737370562219_1200.webp);
+  padding: 90px 24px 35px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+#amans {
+  margin: 48px 0px 60px;
+  background-image: url(https://images.meesho.com/images/marketing/1737370606433_1200.webp);
+  padding: 90px 24px 35px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+#amanss {
+  margin: 48px 0px 60px;
+  background-image: url(https://images.meesho.com/images/marketing/1737370640246_1200.webp);
+  padding: 90px 24px 35px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+#amansss {
+  background-image: url(img/img81.webp);
+  padding: 140px;
+  margin: 0px 120px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  margin-top: 50px;
+  
+  
+
+}
+
+#saman p {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  color: rgb(159, 32, 137);
+  text-align: right;
+  position: relative;
+  left: 100px;
+  bottom: 150px;
+}
+
+
+
+#aman a img {
+  width: 120%;
+  
+}
+
+#amans a img {
+  width: 80%;
+  position: relative;
+  bottom: 60px;
+ 
+}
+
+#amanss a img {
+  width: 80%;
+  position: relative;
+  bottom: 60px;
+}
+
+#gamla {
+  
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+
+}
+
+.chotu {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.don {
+  font-size: 40px;
+}
+
+.chaukia {
+  font-size: 10px;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+
+.tri {
+  font-size: 20px;
+  position: relative;
+  right: 95px;
+  top: 1px;
+}
+
+#rail {
+  position: relative;
+  right: 50px;
+  font-size: 20px;
+}
+
+.sparkle {
+  width: 84%;
+  margin: auto;
+  height: 325px;
+  margin-top: 50px;
+  background-image: url(https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp);
+  background-size: cover;
+}
+
+#sparkles {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+  margin-left: 70px;
+ padding-top: 50px;
+}
+
+#sparkless {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+#sparklesss {
+  width: 69%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.check {
+  font-size: 25px;
+  color: rgb(11, 73, 11);
+}
+
+.enjoy {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  left: 10px;
+  bottom: 3px;
+}
+
+#sign-up {
+  background-color: white;
+  width:180px;
+  padding: 2px 10px;
+  position: relative;
+  left: 70px;
+  
+}
+
+#sign-up p {
+  color: rgb(159, 32, 137);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  position: relative;
+  left: 40px;
+}
+
+#farm-you {
+  font-size: 32px;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+/* product list */
+
+#permanent-div {
+  width: 98%;
+  margin: auto;
+  height: 5000px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-side-div {
+  width: 25%;
+  height: 5000px;
+ 
+}
+
+
+
+#left-side1 {
+  border: 0.4px solid rgb(139, 139, 163);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;           
+}
+
+#relivance {
+  font-size: 18px;
+  font-weight: 550;
+  color: 
+  rgb(53, 53, 67);
+}
+
+#relivance2 {
+  font-size: 18px;
+  font-weight: 550;
+  color:rgb(139, 139, 163);
+}
+
+.angle-up {
+  color: 
+  rgb(67, 67, 85);
+  font-size: 18px;
+}
+
+#left-side2 {
+  border: 0.4px solid rgb(139, 139, 163);
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#products1000 {
+  display: block;
+  margin-top: 6px;
+  color: rgb(139, 139, 163);
+}
+
+#length {
+  color: rgb(139, 139, 163);
+  margin-top: 14px;
+}
+
+#relivance3 {
+  font-size: 20px;
+  font-weight: 545;
+  color: 
+  rgb(53, 53, 67);
+}
+
+#category4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+ 
+}
+
+#search-bar10 {
+border: 1px solid black;
+border-radius: 6px;
+margin-top: 16px;
+display: flex;
+justify-content: space-around;
+}
+
+.maggi {
+  font-size: 28px;
+  font-weight: 100;
+  color: rgb(139, 139, 163);
+  position: relative;
+  top: 6px;
+}
+
+#search-bar-11 {
+  width: 75%;
+  padding: 12px;
+  border: none;
+  outline: none;
+}
+
+#many-things {
+  font-weight: 550;
+  margin-top: 25px;
+  font-size: 18px;
+  color: 
+  rgb(97, 97, 115);
+}
+
+.squre2 {
+  font-size: 23px;
+}
+
+#right-side-div {
+  width: 74%;
+  height: 7000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
+}
+
+#products10 {
+  width: 23%;
+  height: 440px;
+  border: 0.4px solid rgb(139, 139, 163);
+  border-radius: 6px;
+}
+
+#img2-div {
+  height: 59%;
+  width: 100%;
+}
+
+#img2-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#product10-name {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+ 
+
+}
+
+#product10-price {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+
+#product10-name p {
+  font-size: 18px;
+  font-weight: 500;
+  color:rgb(139, 139, 163);
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+#product10-price span{
+  font-size: 24px;
+  font-weight: 700;
+  color:rgb(53, 53, 67);
+  margin-left: 10px;
+}
+
+#product10-price #product10-free{
+  font-size: 15px;
+  font-weight: 600;
+  color:rgb(70, 70, 88);
+  margin-left: 10px;
+  background-color: rgb(217, 211, 211);
+  padding: 4px;
+  border-radius: 10px;
+
+}
+
+#product10-ratting {
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#product100-rate {
+  margin-left: 14px;
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+#product10-rate {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+#product10-rates {
+  font-size: 11px;
+  position: relative;
+  bottom: 3px;
+}
+
+#product10-re {
+  font-size: 14px;
+  font-weight: 600;
+  color: 
+  rgb(139, 139, 163);
+}
+
+#foot20 {
+  position: relative;
+  top: 1910px
+}
+
+
